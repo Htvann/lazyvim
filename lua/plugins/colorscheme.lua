@@ -19,12 +19,13 @@ return {
     priority = 1000,
     opts = {},
   },
+  { "projekt0n/github-nvim-theme" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "github_dark_dimmed",
     },
   },
 }
