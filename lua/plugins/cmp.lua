@@ -71,4 +71,11 @@ return {
       require("cmp").setup(opts)
     end,
   },
+}, 
+{
+  "JoosepAlviste/nvim-ts-context-commentstring",
+  lazy = true,
+  opts = {
+    enable_autocmd = false,
+  },
 }
