@@ -9,8 +9,4 @@ class People {
   }
 }
 
-const valueA = new People("David");
-
-valueA.getName();
-
-export { People };
+const hello = 123;

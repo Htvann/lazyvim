@@ -61,12 +61,17 @@ return {
       })
     end,
   },
+  {
+    "Mofiqul/dracula.nvim",
+  },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "github_dark_dimmed",
+      -- colorscheme = "github_dark_dimmed",
+      -- colorscheme = "onedark",
+      colorscheme = "dracula",
       -- colorscheme = "solarized-osaka",
     },
   },
