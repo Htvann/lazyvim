@@ -10,3 +10,6 @@ class People {
 }
 
 const hello = 123;
+const mewo = new People("helo");
+
+mewo.getName();
