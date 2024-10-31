@@ -13,3 +13,5 @@ const hello = 123;
 const mewo = new People("helo");
 
 mewo.getName();
+
+const value: string = "string";
