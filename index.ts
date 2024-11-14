@@ -1,17 +1,7 @@
-class People {
-  public name: string;
-  constructor(name: string) {
-    this.name = name;
-  }
+const discount = (val: number) => {
+  return val;
+};
 
-  getName() {
-    return this.name;
-  }
-}
+export { discount };
 
-const hello = 123;
-const mewo = new People("helo");
-
-mewo.getName();
-
-const value: string = "string";
+console.log("discount", discount(1213));
