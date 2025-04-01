@@ -1,5 +1,9 @@
 const discount = (val: number) => {
-  return val;
+  try {
+    return 123;
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 export { discount };
