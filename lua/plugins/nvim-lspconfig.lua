@@ -28,6 +28,7 @@ return {
             enableMoveToFileCodeAction = true,
             autoUseWorkspaceTsdk = true,
             experimental = {
+              maxInlayHintLength = 30,
               completion = {
                 enableServerSideFuzzyMatch = true,
               },
@@ -47,6 +48,13 @@ return {
               -- propertyDeclarationTypes = { enabled = true },
               propertyDeclarationTypes = { enabled = false },
               variableTypes = { enabled = false },
+
+              -- enumMemberValues = { enabled = true },
+              -- functionLikeReturnTypes = { enabled = true },
+              -- parameterNames = { enabled = "literals" },
+              -- parameterTypes = { enabled = true },
+              -- propertyDeclarationTypes = { enabled = true },
+              -- variableTypes = { enabled = false },
               -- enumMemberValues = { enabled = true },
               -- functionLikeReturnTypes = { enabled = true },
               -- parameterNames = { enabled = "literals" },
